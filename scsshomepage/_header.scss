@@ -1,0 +1,58 @@
+.header{
+position:relative;
+background:linear-gradient(90deg, rgba(0, 0, 0, 0.719) 0%, rgba(0, 0, 0, 0.712) 100%, rgba(0, 0, 0, 0.685) 100%, rgba(0,0,0,0.5018382352941176) 100%),
+url("/Images-Homepage/1_WvKLe0NhXE8nMvhdeAegcw.jpeg");
+background-position:left;
+background-size: cover;
+background-repeat: no-repeat;
+min-height:100vh;
+padding:2.75rem 9rem;
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:2;
+}
+.section{
+min-height:100vh;
+}
+.header-text h2{
+color:#fff;
+font-size:2.1rem;
+position:relative;
+}
+.header-text h2::after{
+content:"";
+position:absolute;
+bottom:-20px;
+left:0;
+height:4px;
+width:6%;
+background-color:#65a22e;
+}
+.header-text h1{
+padding-top:2.6rem;
+padding-bottom:2rem;
+font-style:italic;
+color:#fff;
+font-weight:500;
+font-size:1.7rem;
+}
+.header-text a{
+text-decoration:none;
+margin-right:2rem;
+color:#fff;
+font-weight:600;
+border:2px solid #65a22e;
+border-radius:50px;
+padding:.5rem 2.5rem;
+font-size:.9rem;
+}
+.btn-contact{
+background-color: #65a22e;
+}
+.cards-text{
+padding:.5rem 9rem;
+}
+.cards-text h2{
+color:#fff;
+}

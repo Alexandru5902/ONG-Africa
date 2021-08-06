@@ -1,0 +1,39 @@
+.navigation{
+padding:1rem 0rem;
+position:absolute;
+top:0;
+left:0;
+width:100%;
+z-index:5;
+}
+.nav-logo img{
+width:120%;
+height:auto;
+}
+.nav-container{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.nav-list{
+list-style-type:none;
+display:flex;
+}
+.nav-item{
+padding-left:2rem;
+}
+.nav-link{
+text-decoration:none;
+font-size:.82rem;
+font-weight:500;
+color:#fff;
+}
+.nav-link img{
+width:80%;
+height:auto;
+}
+.contact .nav-link{
+border:2px solid #74c72c;
+padding:.4rem 2rem;
+border-radius:50px;
+}
