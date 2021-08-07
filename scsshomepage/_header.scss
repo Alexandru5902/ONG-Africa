@@ -72,21 +72,10 @@ color:#fff;
 font-weight:650;
 font-size:1.4rem;
 }
-.cards-row{
-display:grid;
-grid-template-columns:1fr 1fr 1fr;
-grid-gap:3rem;
-padding:.5rem 8rem;
-}
-.cards-row .card{
-background-color:#65a22e;
-padding-left:3.5rem;
-padding-right:3.5rem;
-padding-bottom:.5rem;
-padding-top:2.5rem;
-border-radius:20px;
-position:relative;
-}
+.cards .container .cards-row{display: flex; align-items: center; justify-content: space-between;}
+.cards .container .cards-row .card{padding-left:3.5rem;padding-right:3.5rem;padding-bottom:.5rem;padding-top:2.5rem;border-radius:20px;position:relative; display: flex; justify-content: center; align-items: center; flex: 1;}
+
+
 .card-content{
 display:flex;
 justify-content:center;
