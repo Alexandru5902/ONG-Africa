@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/hamburgers.min.css">
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/brands.min.css" integrity="sha512-sVSECYdnRMezwuq5uAjKQJEcu2wybeAPjU4VJQ9pCRcCY4pIpIw4YMHIOQ0CypfwHRvdSPbH++dA3O4Hihm/LQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" integrity="sha512-P9vJUXK+LyvAzj8otTOKzdfF1F3UYVl13+F8Fof8/2QNb8Twd6Vb+VD52I7+87tex9UXxnzPgWA3rH96RExA7A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,16 +18,13 @@
 </head>
 <body>
 <!-- Navbar & Header -->
-<nav class="navigation padding-all">
+<nav id="navbar-scroll" class="navigation padding-all">
   <div class="container nav-container">
     <a href='#' class="nav-logo">
         <img src="Images-Homepage/AIC Logo Horizontal-Color.png">
     </a>
-    <a href='#' class="nav-click">
-        <i class="fas fa-bars"></i>
-    </a>
-    <ul class="nav-list ">
-        <div class="flex nav">
+    <ul class="nav-list">
+        <div class="flex nav not-nav">
             <li class="nav-item">
                 <a href='#' class="nav-link">Home</a>
             </li>
@@ -48,7 +47,7 @@
         <li class="nav-item contact">
             <a href='#' class="nav-link btn-transparent">Contact</a>
         </li>
-        <div class="flex nav-item">
+        <div class="flex nav-item v2">
             <li class="nav-icon">
                 <a href='#' class="nav-link"><i class="fa fa-youtube-play color-green" aria-hidden="true"></i></a>
             </li>
@@ -60,6 +59,11 @@
             </li>
         </div>
     </ul>
+    <div class="hamburger hamburger--spin fixed">
+        <div class="hamburger-box">
+            <div class="hamburger-inner"></div>
+        </div>
+    </div>
   </div>
 </nav>
 <!-- Header -->
@@ -91,26 +95,30 @@
             <div class="card bk-color">
                 <div class="card-content">
                     <img src="Icons-Homepage/embassy.svg">
-                    <h1 class="invest">Gouvernaments & National Institutions</h1>
+                    <h4 class="invest">Gouvernaments & National Institutions</h4>
                 </div>
                 <div class="bottom"><a href='#'>Read more <img src="Icons-Homepage/left-arrow.svg"></a> </div>
             </div>
             <div class="card bk-color margin-lr">
                 <div class="card-content">
                     <img src="Icons-Homepage/investor.svg">
-                    <h1 class="invest">Investitors</h1>
+                    <h4 class="invest">Investitors</h4>
                 </div>
                 <div class="bottom"><a href='#'>Read more <img src="Icons-Homepage/left-arrow.svg"></a></div>
             </div>
             <div class="card bk-color">
                 <div class="card-content">
                     <img src="Icons-Homepage/factory.svg">
-                    <h1 class="invest">Parastatal Companies</h1>
+                    <h4 class="invest">Parastatal Companies</h4>
                 </div>
                 <div class="bottom"><a href='#'>Read more <img src="Icons-Homepage/left-arrow.svg"></a>  </div>
             </div>
         </div>
     </div>
 </section>
+<button class="scrollToTopBtn"> <ion-icon  class="ion-scroll color-green" name="arrow-up-circle-outline"></ion-icon></button>
+   
+<script src="js/jquery.js"></script> 
+<script src="js/js.js"></script>
 </body>
 </html>

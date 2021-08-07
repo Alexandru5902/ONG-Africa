@@ -183,3 +183,6 @@ padding-left:.5rem;
     font-size:1.1rem;
     }
 }
+@media only screen and (max-width: 1600px){
+    .cards .container .cards-row {justify-content: center; flex-wrap: wrap;}
+  }
