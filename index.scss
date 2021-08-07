@@ -1,0 +1,23 @@
+*{
+box-sizing:border-box;
+padding:0;
+margin:0;
+border:0;
+}
+.container{
+width:85%;
+margin:0 auto;
+}
+html{
+font-family: 'Poppins', sans-serif;
+overflow-x:hidden;
+}
+@media(max-width:600px){
+.container{
+width:95%;
+}
+}
+
+@import './scsshomepage/header';
+@import './scsshomepage/navbar';
+@import './scsshomepage/about';
