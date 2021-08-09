@@ -1,0 +1,96 @@
+#about {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about .about-card {
+  width: 25%;
+}
+
+#about .about-card .card-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+#about .about-card .card-title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  background-color: #65A22E;
+  width: 75px;
+  height: 5px;
+}
+
+#about .about-card .card-title h2 {
+  margin-right: 15px;
+  font-size: 35px;
+  color: #6B6B6B;
+}
+
+#about .about-card .card-title a {
+  color: #65A22E;
+  font-size: 18px;
+}
+
+#about .about-card img {
+  width: 100%;
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#about .about-card .about-text {
+  float: left;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 15px;
+}
+
+#about .about-card .about-text * {
+  float: left;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#about .about-card .about-text p {
+  font-size: 15px;
+  color: #6B6B6B;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#about .about-card .about-text p:first-child {
+  color: #BFBFBF;
+  font-size: 17px;
+}
+
+#about .about-card .about-text p:nth-child(2) {
+  margin: 10px 0;
+}
+
+#about .about-card .about-text a {
+  color: #65A22E;
+  font-size: 18px;
+}
+/*# sourceMappingURL=about-us.css.map */
