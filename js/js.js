@@ -22,7 +22,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 12 || document.documentElement.scrollTop > 12) {
-    document.getElementById("navbar-scroll").style.background = "rgba(0, 0, 0, 0.6)";
+    document.getElementById("navbar-scroll").style.background = "rgba(0, 0, 0, 0.9)";
   } else {
     document.getElementById("navbar-scroll").style.top = "0px";
     document.getElementById("navbar-scroll").style.background = "rgba(0, 0, 0, 0)";
