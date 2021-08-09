@@ -40,7 +40,7 @@ dl, ol, ul {margin: 0;}
 
 .header {
   position: relative;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.719)), color-stop(100%, rgba(0, 0, 0, 0.712)), color-stop(100%, rgba(0, 0, 0, 0.685)), to(rgba(0, 0, 0, 0.501838))), url("/Images-Homepage/1_WvKLe0NhXE8nMvhdeAegcw.jpeg");
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.719)), color-stop(100%, rgba(0, 0, 0, 0.712)), color-stop(100%, rgba(0, 0, 0, 0.685)), to(rgba(0, 0, 0, 0.501838))), url("/Images-Homepage//homepage-header.jpeg");
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.719) 0%, rgba(0, 0, 0, 0.712) 100%, rgba(0, 0, 0, 0.685) 100%, rgba(0, 0, 0, 0.501838) 100%), url("/Images-Homepage/homepage-header.jpeg");
   background-position: left;
   background-size: cover;
